@@ -11,7 +11,7 @@ public class InputManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-
+        Debug.Log("SCROLL WHEEL: " + GetScrollWheelInput());
     }
 
     private float GetScrollWheelInput() {

@@ -98,7 +98,7 @@ MonoBehaviour:
   Health: 0
   EndPosition: {x: 0, y: 0}
   Fraction: 0
-  Velocity: 0.1
+  Velocity: 0.05
 --- !u!61 &4884067620423232026
 BoxCollider2D:
   m_ObjectHideFlags: 0

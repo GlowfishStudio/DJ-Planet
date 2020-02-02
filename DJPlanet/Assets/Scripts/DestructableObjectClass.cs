@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestructableObjectClass : MonoBehaviour
 {
     public int MaxHealth = 3;
+    [HideInInspector]
     public int Health;
 
     private bool IsDestroyed = false;
@@ -40,9 +41,10 @@ public class DestructableObjectClass : MonoBehaviour
         }
     }
 
-    private void DestroyObject() {
+    protected virtual void DestroyObject() {
         IsDestroyed = true;
-
+        //TODO: Add points for player
         //TODO: play death animation or effect here
+        Destroy(this.gameObject);
     }
 }

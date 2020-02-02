@@ -21,10 +21,6 @@ public class LaserWeaponClass : MonoBehaviour {
             RemainingLaserFrames--;
         }
 
-        if (Input.GetKeyDown("space")) {
-            FireLaser();
-        }
-
         if(RemainingLaserFrames == 0) {
             LaserBeam.SetActive(false);
             CanFire = true;

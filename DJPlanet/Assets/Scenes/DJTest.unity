@@ -2043,6 +2043,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scratchSpeed: 20
+  scratchSoundController: {fileID: 0}
+  scratchSoundMinRotation: 5
 --- !u!1001 &5467190889939865094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2276,7 +2278,7 @@ PrefabInstance:
         type: 3}
       propertyPath: GunsContainer
       value: 
-      objectReference: {fileID: 985298663}
+      objectReference: {fileID: 1409748127}
     - target: {fileID: 5696823516769344056, guid: 82287029184667f4f82cab5928c28a47,
         type: 3}
       propertyPath: Scoreboard

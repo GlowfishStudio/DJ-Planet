@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestructableObjectClass : MonoBehaviour
 {
     public int MaxHealth = 3;
+    [HideInInspector]
     public int Health;
 
     private bool IsDestroyed = false;

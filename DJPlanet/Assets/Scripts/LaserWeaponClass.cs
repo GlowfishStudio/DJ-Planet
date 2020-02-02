@@ -31,7 +31,6 @@ public class LaserWeaponClass : MonoBehaviour {
         }
         else {
             LaserBeam.SetActive(true);
-            ProcessLaserHits();
         }
     }
 
@@ -46,16 +45,5 @@ public class LaserWeaponClass : MonoBehaviour {
             return true;
         }
         return false;
-    }
-
-    private void ProcessLaserHits() {
-
-        var hit = Physics2D.BoxCast(LaserBeam.transform.position, Vector2.one * LaserSize, 0, LaserBeam.transform.up * -1);
-        if (hit && hit.collider != null && hit.collider.GetComponent<DestructableObjectClass>()) {
-            var otherObject = hit.collider.GetComponent<DestructableObjectClass>();
-            if (otherObject.Health > 0) {
-                otherObject.Health -= 1;
-            }
-        }
     }
 }

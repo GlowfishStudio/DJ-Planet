@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ColinTest.unity
+- path: Assets/Scenes/Intro Test Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

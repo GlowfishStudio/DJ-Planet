@@ -17,7 +17,7 @@ public class DealLaserDamage : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         var destructableObject = other.GetComponent<DestructableObjectClass>();
         if(destructableObject != null && destructableObject.Health > 0) {
-            destructableObject.Health--;
+            destructableObject.dealDamage();
             if (other.GetComponent<PlanetClass>() == null) {
                 GC.IncrementScore(100);
             }

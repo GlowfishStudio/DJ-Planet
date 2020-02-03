@@ -8,11 +8,16 @@ public class DestructableObjectClass : MonoBehaviour
     [HideInInspector]
     public int Health;
 
+    Color healthyColor = Color.white;
+    Color damagedColor = Color.black;
+
     private bool IsDestroyed = false;
 
     Rigidbody2D _Rigidbody;
     Animator _Animator;
     Collider _Collider;
+
+    SpriteRenderer m_SpriteRenderer;
 
     protected virtual void Awake()
     {
@@ -22,6 +27,14 @@ public class DestructableObjectClass : MonoBehaviour
 
         this.IsDestroyed = false;
         this.Health = MaxHealth;
+    }
+
+    protected virtual void Start()
+    {
+        //Fetch the SpriteRenderer from the GameObject
+        m_SpriteRenderer = GetComponent<SpriteRenderer>();
+
+        m_SpriteRenderer.color = healthyColor;
     }
 
     // Update is called once per frame
@@ -46,5 +59,20 @@ public class DestructableObjectClass : MonoBehaviour
         //TODO: Add points for player
         //TODO: play death animation or effect here
         Destroy(this.gameObject);
+    }
+
+    public void dealDamage()
+    {
+        this.Health--;
+
+        float damageRatio = (float)this.Health / (float)this.MaxHealth;
+
+        Color currentColor = new Color(
+            (healthyColor.r - damagedColor.r) * damageRatio + damagedColor.r,
+            (healthyColor.g - damagedColor.g) * damageRatio + damagedColor.g,
+            (healthyColor.b - damagedColor.b) * damageRatio + damagedColor.b
+            );
+
+        m_SpriteRenderer.color = currentColor;
     }
 }

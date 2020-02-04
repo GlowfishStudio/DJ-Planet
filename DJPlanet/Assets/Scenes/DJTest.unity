@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialAngle: -180
-  rotationSpeed: -10
+  rotationSpeed: 5
 --- !u!212 &277213969
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -409,8 +409,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692df299209a2804fa5bbb76e938e82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 3
+  MaxHealth: 5
   Health: 0
+  healthyColor: {r: 1, g: 1, b: 1, a: 1}
+  damagedColor: {r: 0.509434, g: 0, b: 0.48324195, a: 1}
 --- !u!4 &325872379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7138442865931438552, guid: 8f0e382e54362a242a18b58bfbcc3fa0,
@@ -675,7 +677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialAngle: -45
-  rotationSpeed: -20
+  rotationSpeed: 20
 --- !u!212 &410958967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -753,8 +755,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692df299209a2804fa5bbb76e938e82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 3
+  MaxHealth: 5
   Health: 0
+  healthyColor: {r: 1, g: 1, b: 1, a: 1}
+  damagedColor: {r: 0.509434, g: 0, b: 0.48324195, a: 1}
 --- !u!4 &423666258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8441489234510058870, guid: f54670282b82645ed86762cf36785764,
@@ -2112,8 +2116,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692df299209a2804fa5bbb76e938e82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 3
+  MaxHealth: 5
   Health: 0
+  healthyColor: {r: 1, g: 1, b: 1, a: 1}
+  damagedColor: {r: 0.50980395, g: 0, b: 0.48235294, a: 1}
 --- !u!114 &1529829947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2127,7 +2133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialAngle: 90
-  rotationSpeed: -30
+  rotationSpeed: 30
 --- !u!212 &1529829948
 SpriteRenderer:
   m_ObjectHideFlags: 0

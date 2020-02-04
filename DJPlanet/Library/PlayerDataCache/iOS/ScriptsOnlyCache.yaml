@@ -35,59 +35,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
-    Assets/Scenes/AndrewTest.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 58
-      Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 102
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 10042}
-    - Class: 114
-      Script: {instanceID: 10558}
-    - Class: 114
-      Script: {instanceID: 10594}
-    - Class: 114
-      Script: {instanceID: 10730}
-    - Class: 114
-      Script: {instanceID: 10812}
-    - Class: 114
-      Script: {instanceID: 11152}
-    - Class: 114
-      Script: {instanceID: 11484}
-    - Class: 114
-      Script: {instanceID: 11590}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/DJTest.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -120,23 +67,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10042}
+      Script: {instanceID: 10038}
     - Class: 114
-      Script: {instanceID: 10558}
+      Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 10594}
+      Script: {instanceID: 10590}
     - Class: 114
-      Script: {instanceID: 10730}
+      Script: {instanceID: 10726}
     - Class: 114
-      Script: {instanceID: 10812}
+      Script: {instanceID: 10808}
     - Class: 114
-      Script: {instanceID: 11074}
+      Script: {instanceID: 11072}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11150}
     - Class: 114
-      Script: {instanceID: 11484}
+      Script: {instanceID: 11482}
     - Class: 114
-      Script: {instanceID: 11590}
+      Script: {instanceID: 11588}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -181,31 +128,31 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9704}
+      Script: {instanceID: 9700}
     - Class: 114
-      Script: {instanceID: 9906}
+      Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 10310}
+      Script: {instanceID: 10306}
     - Class: 114
-      Script: {instanceID: 10330}
+      Script: {instanceID: 10326}
     - Class: 114
-      Script: {instanceID: 10534}
+      Script: {instanceID: 10530}
     - Class: 114
-      Script: {instanceID: 10686}
+      Script: {instanceID: 10682}
     - Class: 114
-      Script: {instanceID: 10916}
+      Script: {instanceID: 10912}
     - Class: 114
-      Script: {instanceID: 10930}
+      Script: {instanceID: 10926}
     - Class: 114
-      Script: {instanceID: 11108}
+      Script: {instanceID: 10968}
     - Class: 114
-      Script: {instanceID: 11172}
+      Script: {instanceID: 11106}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 11690}
+      Script: {instanceID: 11544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,6 +160,112 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/You Lost.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9700}
+    - Class: 114
+      Script: {instanceID: 9902}
+    - Class: 114
+      Script: {instanceID: 10306}
+    - Class: 114
+      Script: {instanceID: 10530}
+    - Class: 114
+      Script: {instanceID: 10682}
+    - Class: 114
+      Script: {instanceID: 10912}
+    - Class: 114
+      Script: {instanceID: 11106}
+    - Class: 114
+      Script: {instanceID: 11170}
+    - Class: 114
+      Script: {instanceID: 11544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/You Won.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9700}
+    - Class: 114
+      Script: {instanceID: 9902}
+    - Class: 114
+      Script: {instanceID: 10306}
+    - Class: 114
+      Script: {instanceID: 10530}
+    - Class: 114
+      Script: {instanceID: 10682}
+    - Class: 114
+      Script: {instanceID: 10912}
+    - Class: 114
+      Script: {instanceID: 11106}
+    - Class: 114
+      Script: {instanceID: 11170}
+    - Class: 114
+      Script: {instanceID: 11544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -339,7 +392,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: e17efffb239534b0f1efc622c7d69f51
+      Hash: fadcaa12eaa8de76fa750332fe792520
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TrashClass
@@ -507,13 +560,13 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 59d2b8e593cb825e064934cba0dda674
+      Hash: 30f733b3cf47386817fea249c9217cac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DestructableObjectClass
   - hash:
       serializedVersion: 2
-      Hash: 59d2b8e593cb825e064934cba0dda674
+      Hash: 30f733b3cf47386817fea249c9217cac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlanetClass
@@ -559,6 +612,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 4dcf3c1392aa58fc4c4973739c186a04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TitleTimer
   - hash:
       serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
@@ -721,15 +780,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 4dcf3c1392aa58fc4c4973739c186a04
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TitleTimer
   platform: 9
   scenePathNames:
   - Assets/Scenes/Intro Test Scene.unity
-  - Assets/Scenes/AndrewTest.unity
   - Assets/Scenes/DJTest.unity
+  - Assets/Scenes/You Lost.unity
+  - Assets/Scenes/You Won.unity
   playerPath: /Users/schernyshev/DJ-Planet-iOS-build/DJPlanet

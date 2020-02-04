@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro Test Scene.unity
     guid: 0ec7444def018de469cfef66f663af7d
   - enabled: 1
+    path: Assets/Scenes/DJTest.unity
+    guid: 271c9780c26ccb540af4b994b32d9f3e
+  - enabled: 1
+    path: Assets/Scenes/You Lost.unity
+    guid: 1dbb992a2e8054ba796d6aa2158eabc7
+  - enabled: 0
     path: Assets/Scenes/AndrewTest.unity
     guid: f334561023b0e1742a0ec37fedfe638f
   - enabled: 1
-    path: Assets/Scenes/DJTest.unity
-    guid: 271c9780c26ccb540af4b994b32d9f3e
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/You Won.unity
+    guid: f5f2b3424c2bd4bfd90575ffbc51a057
   m_configObjects: {}

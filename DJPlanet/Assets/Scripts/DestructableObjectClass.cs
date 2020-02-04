@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestructableObjectClass : MonoBehaviour
 {
@@ -8,8 +9,8 @@ public class DestructableObjectClass : MonoBehaviour
     [HideInInspector]
     public int Health;
 
-    Color healthyColor = Color.white;
-    Color damagedColor = Color.black;
+    public Color healthyColor = Color.white;
+    public Color damagedColor = Color.black;
 
     private bool IsDestroyed = false;
 
@@ -42,6 +43,14 @@ public class DestructableObjectClass : MonoBehaviour
     {
         if(Health == 0 && IsDestroyed == false) {
             DestroyObject();
+
+            TrashClass[] allTrash = GameObject.FindObjectsOfType(typeof(TrashClass)) as TrashClass[];
+
+            if (allTrash.Length == 1)
+            {
+                SceneManager.LoadScene("You Won", LoadSceneMode.Single);
+            }
+
             return;
         }
     }
@@ -74,5 +83,10 @@ public class DestructableObjectClass : MonoBehaviour
             );
 
         m_SpriteRenderer.color = currentColor;
+
+        if (this.Health == 0)
+        {
+            SceneManager.LoadScene("You Lost", LoadSceneMode.Single);
+        }
     }
 }

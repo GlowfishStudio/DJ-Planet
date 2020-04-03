@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692df299209a2804fa5bbb76e938e82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 5
+  MaxHealth: 1000
   Health: 0
   healthyColor: {r: 1, g: 1, b: 1, a: 1}
   damagedColor: {r: 0.509434, g: 0, b: 0.48324195, a: 1}
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692df299209a2804fa5bbb76e938e82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 5
+  MaxHealth: 1000
   Health: 0
   healthyColor: {r: 1, g: 1, b: 1, a: 1}
   damagedColor: {r: 0.509434, g: 0, b: 0.48324195, a: 1}
@@ -2116,7 +2116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692df299209a2804fa5bbb76e938e82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 5
+  MaxHealth: 1000
   Health: 0
   healthyColor: {r: 1, g: 1, b: 1, a: 1}
   damagedColor: {r: 0.50980395, g: 0, b: 0.48235294, a: 1}
@@ -2378,6 +2378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1838036443}
   - component: {fileID: 1838036444}
+  - component: {fileID: 1838036445}
   m_Layer: 0
   m_Name: Sun Sprite
   m_TagString: Untagged
@@ -2448,6 +2449,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1838036445
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838036442}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.725
 --- !u!1001 &1838743427
 PrefabInstance:
   m_ObjectHideFlags: 0

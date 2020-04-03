@@ -18,6 +18,7 @@ public class DealLaserDamage : MonoBehaviour
         var destructableObject = other.GetComponent<DestructableObjectClass>();
         if(destructableObject != null && destructableObject.Health > 0) {
             destructableObject.dealDamage();
+
             if (other.GetComponent<PlanetClass>() == null) {
                 GC.IncrementScore(100);
             }

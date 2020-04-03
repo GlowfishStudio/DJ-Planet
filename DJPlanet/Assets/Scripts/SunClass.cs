@@ -2,14 +2,9 @@
 using System.Collections;
 
 public class SunClass : MonoBehaviour {
-
-    // Use this for initialization
-    void Start() {
-
-    }
-
-    // Update is called once per frame
-    void Update() {
-
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Sub colllided with");
+        Debug.Log(other);
     }
 }
